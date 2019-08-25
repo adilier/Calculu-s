@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #BDD5EA;
+}
+.grid-navbar {
+    display: grid;
+    grid-template-areas:
+        'logo header';
+    grid-gap: 10px;
+    background-color: #758CAB;
+    padding: 12px 50px;
+    box-shadow: 1px 1px 15px #bdbdbd;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    grid-area: logo;
+    color: #F7F7FF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    display: inline;
+    vertical-align: middle;
+}
+
+ul li a{
+    list-style-type: none;
+    margin-left: 25px;
+    color: #F7F7FF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+.itens-list{
+    grid-area: header;
+}
+
+.grid-content{
+    overflow: hidden;
+    display: grid;
+    grid-template-areas:
+        'headContent headContent headContent'
+        'addition subtraction multiplication'
+        'footer footer footer';
+    grid-gap: 10px;
+}
+
+.headContent{
+    grid-area: headContent;
+    margin-bottom: 40px;
+}
+
+.content{
+    padding: 70px 50px;
+    margin-bottom: 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.textContent-title{
+    color: #2F3942;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.textContent-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.addition{
+    grid-area: addition;
+}
+
+.subtraction{
+    grid-area: subtraction;
+}
+
+.multiplication{
+    grid-area: multiplication;
+}
+
+.sizeBox{
+    width: 50vh;
+    justify-self: center;
+}
+
+.box{
+    border: solid 3px rgb(76, 106, 146);
+    padding: 30px;
+    text-align: center;
+    min-height: 40vh;
+}
+
+.boxHeader{
+    margin-bottom: 20px;
+}
+
+.boxHeader-text{
+    font-size: 2.3rem;
+    color: #2F3942;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.boxBody-text{
+    font-size: 1.5rem;
+    color: #2F3942;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.grid-footer{
+    overflow: hidden;
+    display: grid;
+    grid-template-areas:
+        'footer';
+    grid-gap: 10px;
+}
+
+.contentFooter{
+    background: #3D5A80;
+    padding: 20px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.footerText{
+    font-size: 20px;
+    color: white;
+}
+
+.boxButton{
+    margin-top: 40px;
+}
+
+button{
+    background: rgb(87, 133, 192);
+    border: 0;
+    width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    border: solid 2px rgb(60, 96, 145);
+}
+
+button:hover{
+    transition: 0.3s ease-in;
+    background: rgb(76, 125, 189);
+}

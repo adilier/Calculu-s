@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Calculu's</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="grid-navbar">
+        <div class="logo">
+            Calculu's
+        </div>
+        <div class="itens-list">
+            <ul>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="grid-content content">
+        <div class="headContent">
+            <div class="text-center">
+                <h2 class="textContent-title">Math operations</h2>
+                <h3 class="textContent-subtitle">Mathematical operations cover the calculations that are used for
+                    solving the equations.</h3>
+            </div>
+        </div>
+        <div class="addition sizeBox">
+            <div class="box">
+                <div class="boxHeader">
+                    <h2 class="boxHeader-text">Addition</h2>
+                </div>
+                <div class="boxBody">
+                    <p class="boxBody-text">Addition is one of the basic operations of arithmetic. In its simplest form,
+                        the addition combines two numbers into a single number.</p>
+                </div>
+                <div>
+                    <h3 id="resultadoAddition"></h3>
+                </div>
+                <div class="boxButton">
+                    <button onclick="calcAddition()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div class="subtraction sizeBox">
+            <div class="box">
+                <div class="boxHeader">
+                    <h2 class="boxHeader-text">Subtraction</h2>
+                </div>
+                <div class="boxBody">
+                    <p class="boxBody-text">Subtraction is one of four basic mathematical operations in which, for each
+                        two values, one is subtracted from the other, that is, one quantity is taken from another, and
+                        the remaining value is the result of that operation.</p>
+                </div>
+                <div class="boxButton">
+                    <button onclick="calcSubtraction()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div class="multiplication sizeBox">
+            <div class="box">
+                <div class="boxHeader">
+                    <h2 class="boxHeader-text" >Multiplication</h2>
+                </div>
+                <div class="boxBody">
+                    <p class="boxBody-text">Multiplication is a natural evolution of addition, because it is defined to
+                        represent the sum of a certain number of sets that have the same number of elements.</p>
+                </div>
+                <div class="boxButton">
+                    <button id="buttonMulti" onclick="calcMultiplication()">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-footer contentFooter">
+        <footer class="footer text-center">
+            <strong class="footerText">&copy; Calculu's</strong>
+        </footer>
+    </div>
+
+    <script src="js/contas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+@media (max-width: 1370px) 
+{
+    .grid-content{
+        grid-template-areas:
+        'headContent'
+        'addition'
+        'subtraction'
+        'multiplication';
+    }
+
+    .sizeBox{
+        width: 60%;
+        text-align: center;
+    }
+}
